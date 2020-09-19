@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Landing page</title>
+  </head>
+  <body>
+    <section class="section1">
+      <header>
+        <a href="#">
+          <img class="img-fluid" src="./img/logo2.png" class="logo" />
+        </a>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+
+      <div class="content">
+        <div class="textBox">
+          <h2>
+            That's What <br />
+            <pan>I Like</pan>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum error
+            quibusdam culpa voluptate eos nesciunt perferendis ipsum magnam.
+            Odio nisi, quisquam molestias placeat culpa quod est ducimus ullam
+            error dolore.
+          </p>
+          <a href="#">View All Products</a>
+        </div>
+
+        <div class="images">
+          <img class="drink" src="./img/bud.png" alt="" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="./img/drink1.png"
+            onclick="imgSlider('./img/drink1.png'); changeBgColor('#008200')"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/drink2.png"
+            onclick="imgSlider('./img/drink2.png'); changeBgColor('#e60c2c')"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/drink3.png"
+            onclick="imgSlider('./img/drink3.png');changeBgColor('#1e1e1e')"
+          />
+        </li>
+      </ul>
+      <ul class="social">
+        <li>
+          <a href="#"><img src="./img/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./img/twitter.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./img/instagram-sketched.png" alt="" /></a>
+        </li>
+      </ul>
+    </section>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>
